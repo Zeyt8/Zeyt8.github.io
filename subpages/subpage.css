@@ -22,12 +22,6 @@
     display: flex;
     align-items: center;
 }
-.text-lg-start {
-    font-size: 3rem;
-}
-.text-lg-start span {
-    font-size: 100px;
-}
 .navbarScroll.navbarDark {
     background-color: black;
 }
@@ -44,4 +38,16 @@
 #footer {
     background-color: #523903;
     text-align: right;
+}
+iframe {
+    -moz-transform: scale(0.9, 0.9); 
+    -webkit-transform: scale(0.9, 0.9); 
+    -o-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9); 
+    -moz-transform-origin: left center;
+    -webkit-transform-origin: left center;
+    -o-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
 }
