@@ -16,7 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 244, 227);
+    color: rgb(255, 246, 234);
 }
 .imageAboutPage {
     width: 100%;
@@ -39,12 +39,12 @@
     cursor: pointer;
 }
 .fa-stack-overflow:hover, .fa-github:hover {
-    color: #d6d6d6;
+    color: rgb(255, 246, 234);
 }
 .fab {
     color: #000000;
 }
 #footer {
-    background-color: #076470;
+    background-color: #523903;
     text-align: right;
 }
