@@ -7,7 +7,10 @@
 .bgimageTechtonic {
     background: url('../images/Techtonic/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic {
+.bgimageModuleWreck {
+    background: url('../images/Module Wreck/1.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck {
     height: 60vh;
     width: 100%;
     background-size: cover;
