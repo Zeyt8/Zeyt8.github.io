@@ -1,7 +1,15 @@
-.bgimage {
+.bgimageHandbook {
+    background: url('../images/thehandbookheader.png');
+}
+.bgimagePrivacy {
+    background: url('../images/Privacy/header.png');
+}
+.bgimageTechtonic {
+    background: url('../images/Techtonic/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic {
     height: 60vh;
     width: 100%;
-    background: url('../images/thehandbookheader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
