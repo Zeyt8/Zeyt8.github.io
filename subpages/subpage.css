@@ -10,7 +10,10 @@
 .bgimageModuleWreck {
     background: url('../images/Module Wreck/1.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck {
+.bgimageNEETRush {
+    background: url('../images/NEET Rush/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush {
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -47,7 +50,7 @@
     color: #000000;
 }
 #footer {
-    background-color: #523903;
+    background-color: #614404;
     text-align: right;
 }
 iframe {
