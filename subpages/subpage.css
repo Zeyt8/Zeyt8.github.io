@@ -13,7 +13,10 @@
 .bgimageNEETRush {
     background: url('../images/NEET Rush/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush {
+.bgimageAttackOnBastille {
+    background: url('../images/Attack on Bastille/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille {
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -43,7 +46,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-stack-overflow:hover, .fa-github:hover {
+.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover {
     color: rgb(255, 246, 234);
 }
 .fab {
