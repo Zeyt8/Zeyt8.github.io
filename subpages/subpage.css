@@ -16,7 +16,10 @@
 .bgimageAttackOnBastille {
     background: url('../images/Attack on Bastille/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille {
+.bgImageJoculCuUrsi {
+    background: url('../images/Jocul cu Ursi/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi {
     height: 60vh;
     width: 100%;
     background-size: cover;
