@@ -38,7 +38,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover {
+.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover, .fa-github-square:hover {
     color: rgb(255, 246, 234);
 }
 .fab {
