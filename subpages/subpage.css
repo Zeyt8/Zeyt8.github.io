@@ -19,7 +19,10 @@
 .bgImageJoculCuUrsi {
     background: url('../images/Jocul cu Ursi/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi {
+.bgImageChesspp {
+    background: url('../images/background.jpg');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi, .bgImageChesspp {
     height: 60vh;
     width: 100%;
     background-size: cover;
