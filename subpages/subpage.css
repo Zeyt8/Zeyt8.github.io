@@ -22,7 +22,10 @@
 .bgImageChesspp {
     background: url('../images/Chess++/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi, .bgImageChesspp {
+.bsImageSnailz{
+    background: url('../images/Snailz/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi, .bgImageChesspp, .bsImageSnailz {
     height: 60vh;
     width: 100%;
     background-size: cover;
