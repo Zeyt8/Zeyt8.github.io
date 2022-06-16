@@ -19,7 +19,13 @@
 .bgImageJoculCuUrsi {
     background: url('../images/Jocul cu Ursi/header.png');
 }
-.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi {
+.bgImageChesspp {
+    background: url('../images/Chess++/header.png');
+}
+.bsImageSnailz{
+    background: url('../images/Snailz/header.png');
+}
+.bgimageHandbook, .bgimagePrivacy, .bgimageTechtonic, .bgimageModuleWreck, .bgimageNEETRush, .bgimageAttackOnBastille, .bgImageJoculCuUrsi, .bgImageChesspp, .bsImageSnailz {
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -49,7 +55,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover {
+.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover, .fa-github-square:hover {
     color: rgb(255, 246, 234);
 }
 .fab {

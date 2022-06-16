@@ -38,11 +38,18 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover {
+.social-icons-smaller {
+    font-size: 32px;
+    cursor: pointer;
+}
+.fa-stack-overflow:hover, .fa-github:hover, .fa-linkedin:hover, .fa-github-square:hover {
     color: rgb(255, 246, 234);
 }
 .fab {
     color: #000000;
+}
+.lighter {
+    color: rgb(255, 246, 234, 0.9);
 }
 #footer {
     background-color: #614404;
