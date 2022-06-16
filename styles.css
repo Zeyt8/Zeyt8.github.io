@@ -51,6 +51,24 @@
 .lighter {
     color: rgb(255, 246, 234, 0.9);
 }
+.card-title-over{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(255, 246, 234);
+    -webkit-text-stroke: 1.5px rgb(51, 51, 51);
+}
+.card-text-over{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(255, 246, 234);
+    -webkit-text-stroke: 0.6px rgb(51, 51, 51);
+}
+.accordion-card[aria-expanded="true"]{
+    border-radius: 5px;
+    border:4px solid rgb(51, 51, 51);
+}
 #footer {
     background-color: #614404;
     text-align: right;

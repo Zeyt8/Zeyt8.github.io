@@ -36,10 +36,7 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#jams">Game Jams</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#other">Other</a>
+                        <a class="nav-link" href="#Accordion">Small Projects</a>
                     </li>
                 </ul>
             </div>
@@ -146,167 +143,251 @@
         </div>
     </section>
 
-    <!--game jams section-->
-    <section id="jams">
+    <section id="Accordion">
         <div class="container mt-4 pt-3">
-            <h1 class="text-center">Game Jams</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/snailz.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Snailz/1.png" alt="Card image" style="width:100%;">
-                            <div class="card-body">
-                                <h4 class="card-title">Snailz</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    Stealth, puzzle game where you play as 2 snails that must find a way out of the dangerous part of the forest.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/snailz.html" class="btn btn-success">Read more</a>
+            <div class="accordion accordion-flush" id="mainAccordion">
+                <div class="row">
+                    <div class="col-lg-4 mt-4 pt-4">
+                        <div class="accordion-item" id="jamsHeader">
+                            <div class="accordion-card" data-bs-toggle="collapse" href="#JamsCollapse" aria-expanded="true" aria-controls="JamsCollapse" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img" src="images/global_game_jam.jpeg" alt="Card image" style="height:100%;">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h4 class="card-title-over mb-auto p-2">Game Jams</h4>
+                                        <p class="card-text-over p-0" style="text-align: center;">
+                                            Collection of my Game Jam projects.
+                                        </p>
+                                        <div class="text-center p-0">
+                                            <button class="btn btn-success" type="button">Expand</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/privacy.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Privacy/1.png" alt="Card image" style="width:100%;">
-                            <div class="card-body">
-                                <h4 class="card-title">Privacy</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    Hack your way in a computer to retreive precious information. You only have a limited time, so be careful.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/privacy.html" class="btn btn-success">Read more</a>
+                    </div>
+                    <div class="col-lg-4 mt-4 pt-4">
+                        <div class="accordion-item" id="smallGamesHeader">
+                            <div class="accordion-card" data-bs-toggle="collapse" href="#SmallGamesCollapse" aria-expanded="false" aria-controls="SmallGamesCollapse" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Techtonic/9.png" alt="Card image" style="height:100%;">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h4 class="card-title-over mb-auto p-2">Small Games</h4>
+                                        <p class="card-text-over p-0" style="text-align: center;">
+                                            Collection of my small games.
+                                        </p>
+                                        <div class="text-center p-0">
+                                            <button class="btn btn-success" type="button">Expand</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/module wreck.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Module Wreck/1.png" alt="Card image" style="width:100%;">
-                            <div class="card-body">
-                                <h4 class="card-title">Module Wreck</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    Local co-op space adventure. Repair your ship while fighting enemies and manuvering through an asteroid cluster.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/module wreck.html" class="btn btn-success">Read more</a>
+                    </div>
+                    <div class="col-lg-4 mt-4 pt-4">
+                        <div class="accordion-item" id="othersHeader">
+                            <div class="accordion-card" data-bs-toggle="collapse" href="#OtherProjectsCollapse" aria-expanded="false" aria-controls="OtherProjectsCollapse" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/background.jpg" alt="Card image" style="height:100%;">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h4 class="card-title-over mb-auto p-2">Other Projects</h4>
+                                        <p class="card-text-over p-0" style="text-align: center;">
+                                            Collection of my other projects.
+                                        </p>
+                                        <div class="text-center p-0">
+                                            <button class="btn btn-success" type="button">Expand</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/joculcuursi.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Jocul cu Ursi/1.png" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">Jocul cu Ursi</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    A comically bad game. What happens when you combine inconvenient superpowers with a world full of bears.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/joculcuursi.html" class="btn btn-success">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/neet rush.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/NEET Rush/1.png" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">NEET Rush</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    2D sidescroller about Home. Sweet home. You are a NEET that tries to avoid human interaction at all costs.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/neet rush.html" class="btn btn-success">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--other projects section-->
-    <section id="other">
-        <div class="container mt-4 pt-3">
-            <h1 class="text-center">Other Projects</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/chess++.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Chess++/1.png" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">Chess++</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    3 man chess with army building and more tactical choices. Choose your army composition and clash with 2 other players on a circular battlefield.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/chess++.html" class="btn btn-success">Read more</a>
+    <div class="container pt-3" id="games">
+        <!--game jams section-->
+        <section id="jams">
+        <div class="accordion-collapse collapse show" id="JamsCollapse" aria-labelledby="jamsHeader" data-bs-parent="#games">
+            <div class="accordion-body">
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/snailz.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Snailz/1.png" alt="Card image" style="width:100%;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Snailz</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            Stealth, puzzle game where you play as 2 snails that must find a way out of the dangerous part of the forest.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/snailz.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/techtonic.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Techtonic/3.png" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">Techtonic</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    3D 2-player LAN co-op puzzle/shooter set in a steampunk universe. Play as a father and a drone as they try to escape the underground they are trapped in.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/techtonic.html" class="btn btn-success">Read more</a>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/privacy.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Privacy/1.png" alt="Card image" style="width:100%;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Privacy</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            Hack your way in a computer to retreive precious information. You only have a limited time, so be careful.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/privacy.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="#" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/background.jpg" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">Street Walk Adventure</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    3D maze full of colelctibles. Reaching the end is only the start. Collecting all the fragments is the end.
-                                </p>
-                                <div class="text-center">
-                                    <a href="#" class="btn btn-success">Read more</a>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/module wreck.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Module Wreck/1.png" alt="Card image" style="width:100%;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Module Wreck</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            Local co-op space adventure. Repair your ship while fighting enemies and manuvering through an asteroid cluster.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/module wreck.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 mt-4 pt-4">
-                    <a href="subpages/attackonbastille.html" style="color: inherit; text-decoration: inherit;">
-                        <div class="card">
-                            <img class="card-img-top" src="images/Attack on Bastille/1.png" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                <h4 class="card-title">Attack on Bastille</h4>
-                                <p class="card-text" style="text-align: justify;">
-                                    Tower defence set in the french revolution. Try to defend bastille from the hordes of revolutionary citizens.
-                                </p>
-                                <div class="text-center">
-                                    <a href="subpages/attackonbastille.html" class="btn btn-success">Read more</a>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/joculcuursi.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Jocul cu Ursi/1.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Jocul cu Ursi</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            A comically bad game. What happens when you combine inconvenient superpowers with a world full of bears.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/joculcuursi.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/neet rush.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/NEET Rush/1.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">NEET Rush</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            2D sidescroller about Home. Sweet home. You are a NEET that tries to avoid human interaction at all costs.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/neet rush.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
             </div>
         </div>
-    </section>
+        </section>
+
+        <!--other projects section-->
+        <section id="smallGames">
+        <div class="accordion-collapse collapse" id="SmallGamesCollapse" aria-labelledby="smallGamesHeader" data-bs-parent="#games">
+            <div class="accordion-body">
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/chess++.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Chess++/1.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Chess++</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            3 man chess with army building and more tactical choices. Choose your army composition and clash with 2 other players on a circular battlefield.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/chess++.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/techtonic.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Techtonic/3.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Techtonic</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            3D 2-player LAN co-op puzzle/shooter set in a steampunk universe. Play as a father and a drone as they try to escape the underground they are trapped in.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/techtonic.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <a href="#" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/background.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Street Walk Adventure</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            3D maze full of colelctibles. Reaching the end is only the start. Collecting all the fragments is the end.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="#" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <a href="subpages/attackonbastille.html" style="color: inherit; text-decoration: inherit;">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/Attack on Bastille/1.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Attack on Bastille</h4>
+                                        <p class="card-text" style="text-align: justify;">
+                                            Tower defence set in the french revolution. Try to defend bastille from the hordes of revolutionary citizens.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="subpages/attackonbastille.html" class="btn btn-success">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+<<<<<<< Updated upstream
+                            </div>
+                        </div>
+                    </a>
+                </div>
+=======
+                            </a>
+                        </div>
+                    </div>
+>>>>>>> Stashed changes
+            </div>
+        </div>
+        </section>
+
+        <section id="otherProjects">
+        <div class="accordion-collapse collapse" id="OtherProjectsCollapse" aria-labelledby="othersHeader" data-bs-parent="#games">
+            <div class="accordion-body">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
 
     <!--footer-->
     <footer id="footer">
